@@ -71,7 +71,7 @@ public class displayEmployee extends JFrame implements ActionListener {
 
        search=new JButton("Search");
        search.setBounds(20,150,80,20);
-       search.setBackground(new Color(52,36,72));
+       search.setBackground(Color.black);
        search.setSize(100,25);
        search.setForeground(Color.white);
        search.addActionListener(this);
@@ -79,7 +79,7 @@ public class displayEmployee extends JFrame implements ActionListener {
 
         print=new JButton("Print");
         print.setBounds(200,150,80,20);
-        print.setBackground(new Color(52,36,72));
+        print.setBackground(Color.black);
         print.setForeground(Color.white);
         print.setSize(100,25);
         print.addActionListener(this);
@@ -87,7 +87,7 @@ public class displayEmployee extends JFrame implements ActionListener {
 
         update=new JButton("Update");
         update.setBounds(380,150,80,20);
-        update.setBackground(new Color(52,36,72));
+        update.setBackground(Color.black);
         update.setForeground(Color.white);
         update.setSize(100,25);
         update.addActionListener(this);
@@ -95,7 +95,7 @@ public class displayEmployee extends JFrame implements ActionListener {
 
         Back=new JButton("Back");
         Back.setBounds(560,150,80,20);
-        Back.setBackground(new Color(52,36,72));
+        Back.setBackground(Color.black);
         Back.setForeground(Color.white);
         Back.setSize(100,25);
         Back.addActionListener(this);
